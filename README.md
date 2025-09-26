@@ -13,65 +13,60 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         
-        body {
+body {
             background-color: #f5f5f5;
             color: #333;
             line-height: 1.6;
         }
         
-        .container {
+ .container {
             width: 90%;
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 15px;
         }
-        
-        /* Cabeçalho */
+                /* Cabeçalho */
         header {
             background-color: #bc002d; /* Vermelho japonês */
             color: white;
             padding: 20px 0;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
-        
-        .header-content {
-            display: flex;
+                .header-content {
+
+display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        
-        .logo {
+                .logo {
             font-size: 2rem;
             font-weight: bold;
             display: flex;
             align-items: center;
         }
         
-        .logo span {
+.logo span {
             margin-left: 10px;
         }
-        
-        nav ul {
+                nav ul {
             display: flex;
             list-style: none;
         }
         
-        nav ul li {
+nav ul li {
             margin-left: 20px;
         }
-        
-        nav ul li a {
+                nav ul li a {
             color: white;
             text-decoration: none;
             font-weight: 500;
             transition: color 0.3s;
         }
         
-        nav ul li a:hover {
+ nav ul li a:hover {
             color: #ffd700; /* Dourado */
         }
-        
-        /* Banner */
+                /* Banner */
         .banner {
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
             background-size: cover;
@@ -84,37 +79,34 @@
             color: white;
         }
         
-        .banner-content h1 {
+.banner-content h1 {
             font-size: 3.5rem;
             margin-bottom: 20px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
-        
-        .banner-content p {
+                .banner-content p {
             font-size: 1.2rem;
             max-width: 700px;
             margin: 0 auto;
         }
         
-        /* Seções */
+/* Seções */
         section {
             padding: 60px 0;
         }
-        
-        .section-title {
+                .section-title {
             text-align: center;
             margin-bottom: 40px;
             position: relative;
         }
         
-        .section-title h2 {
+.section-title h2 {
             font-size: 2.5rem;
             color: #bc002d;
             display: inline-block;
             padding-bottom: 10px;
         }
-        
-        .section-title h2::after {
+                .section-title h2::after {
             content: '';
             position: absolute;
             width: 100px;
@@ -125,90 +117,83 @@
             transform: translateX(-50%);
         }
         
-        /* Sobre */
+/* Sobre */
         .about-content {
             display: flex;
             align-items: center;
             gap: 40px;
         }
-        
-        .about-text {
+                .about-text {
             flex: 1;
         }
         
-        .about-image {
+.about-image {
             flex: 1;
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
         
-        .about-image img {
+.about-image img {
             width: 100%;
             height: auto;
             display: block;
         }
-        
-        /* Tradições */
+                /* Tradições */
         .traditions-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
         }
         
-        .tradition-card {
+.tradition-card {
             background-color: white;
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s;
         }
-        
-        .tradition-card:hover {
+                .tradition-card:hover {
             transform: translateY(-10px);
         }
         
-        .tradition-image {
+.tradition-image {
             height: 200px;
             overflow: hidden;
         }
-        
-        .tradition-image img {
+                .tradition-image img {
             width: 100%;
             height: 100%;
             object-fit: cover;
             transition: transform 0.5s;
         }
         
-        .tradition-card:hover .tradition-image img {
+.tradition-card:hover .tradition-image img {
             transform: scale(1.1);
         }
-        
-        .tradition-content {
+                .tradition-content {
             padding: 20px;
         }
         
-        .tradition-content h3 {
+.tradition-content h3 {
             color: #bc002d;
             margin-bottom: 10px;
         }
-        
-        /* Gastronomia */
+                /* Gastronomia */
         .gastronomy {
             background-color: #f9f9f9;
         }
         
-        .food-grid {
+.food-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 30px;
         }
-        
-        .food-item {
+                .food-item {
             text-align: center;
         }
         
-        .food-image {
+.food-image {
             width: 200px;
             height: 200px;
             border-radius: 50%;
@@ -216,30 +201,27 @@
             margin: 0 auto 20px;
             border: 5px solid #bc002d;
         }
-        
-        .food-image img {
+                .food-image img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
         
-        .food-item h3 {
+.food-item h3 {
             margin-bottom: 10px;
             color: #bc002d;
         }
-        
-        /* Festivais */
+                /* Festivais */
         .festivals {
             background-color: #fff;
         }
         
-        .festival-timeline {
+.festival-timeline {
             max-width: 800px;
             margin: 0 auto;
             position: relative;
         }
-        
-        .festival-timeline::before {
+                .festival-timeline::before {
             content: '';
             position: absolute;
             left: 50%;
@@ -250,22 +232,20 @@
             transform: translateX(-50%);
         }
         
-        .festival-item {
+.festival-item {
             margin-bottom: 40px;
             position: relative;
             width: 50%;
             padding: 20px;
         }
-        
-        .festival-item:nth-child(odd) {
+                .festival-item:nth-child(odd) {
             left: 0;
         }
         
-        .festival-item:nth-child(even) {
+.festival-item:nth-child(even) {
             left: 50%;
         }
-        
-        .festival-content {
+                .festival-content {
             background-color: white;
             padding: 20px;
             border-radius: 10px;
@@ -273,7 +253,7 @@
             position: relative;
         }
         
-        .festival-content::after {
+.festival-content::after {
             content: '';
             position: absolute;
             top: 20px;
@@ -282,26 +262,23 @@
             background-color: white;
             transform: rotate(45deg);
         }
-        
-        .festival-item:nth-child(odd) .festival-content::after {
+                .festival-item:nth-child(odd) .festival-content::after {
             right: -10px;
         }
         
-        .festival-item:nth-child(even) .festival-content::after {
+.festival-item:nth-child(even) .festival-content::after {
             left: -10px;
         }
-        
-        .festival-item h3 {
+                .festival-item h3 {
             color: #bc002d;
             margin-bottom: 10px;
         }
         
-        /* Contato */
+/* Contato */
         .contact {
             background-color: #f9f9f9;
         }
-        
-        .contact-form {
+                .contact-form {
             max-width: 600px;
             margin: 0 auto;
             background-color: white;
@@ -310,17 +287,16 @@
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
         
-        .form-group {
+.form-group {
             margin-bottom: 20px;
         }
-        
-        .form-group label {
+                .form-group label {
             display: block;
             margin-bottom: 5px;
             font-weight: 500;
         }
         
-        .form-group input,
+.form-group input,
         .form-group textarea {
             width: 100%;
             padding: 10px;
@@ -328,13 +304,12 @@
             border-radius: 5px;
             font-size: 1rem;
         }
-        
-        .form-group textarea {
+                .form-group textarea {
             height: 150px;
             resize: vertical;
         }
         
-        .btn {
+.btn {
             display: inline-block;
             background-color: #bc002d;
             color: white;
@@ -346,70 +321,63 @@
             font-weight: 500;
             transition: background-color 0.3s;
         }
-        
-        .btn:hover {
+                .btn:hover {
             background-color: #a00024;
         }
         
-        /* Rodapé */
+/* Rodapé */
         footer {
             background-color: #333;
             color: white;
             padding: 40px 0 20px;
         }
-        
-        .footer-content {
+                .footer-content {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
             margin-bottom: 30px;
         }
         
-        .footer-section {
+.footer-section {
             flex: 1;
             min-width: 250px;
             margin-bottom: 20px;
         }
-        
-        .footer-section h3 {
+                .footer-section h3 {
             margin-bottom: 20px;
             color: #ffd700;
         }
         
-        .footer-section ul {
+.footer-section ul {
             list-style: none;
         }
-        
-        .footer-section ul li {
+                .footer-section ul li {
             margin-bottom: 10px;
         }
         
-        .footer-section ul li a {
+.footer-section ul li a {
             color: #ddd;
             text-decoration: none;
             transition: color 0.3s;
         }
-        
-        .footer-section ul li a:hover {
+                .footer-section ul li a:hover {
             color: #ffd700;
         }
         
-        .social-links {
+.social-links {
             display: flex;
             gap: 15px;
         }
-        
-        .social-links a {
+                .social-links a {
             color: white;
             font-size: 1.5rem;
             transition: color 0.3s;
         }
         
-        .social-links a:hover {
+.social-links a:hover {
             color: #ffd700;
         }
-        
-        .copyright {
+                .copyright {
             text-align: center;
             padding-top: 20px;
             border-top: 1px solid #555;
@@ -417,37 +385,34 @@
             color: #aaa;
         }
         
-        /* Responsividade */
+/* Responsividade */
         @media (max-width: 768px) {
             .header-content {
                 flex-direction: column;
                 text-align: center;
             }
-            
-            nav ul {
+                        nav ul {
                 margin-top: 20px;
                 justify-content: center;
             }
             
-            .banner-content h1 {
+.banner-content h1 {
                 font-size: 2.5rem;
             }
             
-            .about-content {
+ .about-content {
                 flex-direction: column;
             }
-            
-            .festival-timeline::before {
+                        .festival-timeline::before {
                 left: 20px;
             }
             
-            .festival-item {
+.festival-item {
                 width: 100%;
                 left: 0 !important;
                 padding-left: 50px;
             }
-            
-            .festival-item:nth-child(odd) .festival-content::after,
+                        .festival-item:nth-child(odd) .festival-content::after,
             .festival-item:nth-child(even) .festival-content::after {
                 left: -10px;
                 right: auto;
@@ -456,7 +421,7 @@
     </style>
 </head>
 <body>
-    <!-- Cabeçalho -->
+    <-- Cabeçalho -->
     <header>
         <div class="container">
             <div class="header-content">
@@ -476,7 +441,7 @@
         </div>
     </header>
 
-    <!-- Banner -->
+<-- Banner -->
     <section class="banner">
         <div class="container">
             <div class="banner-content">
@@ -486,7 +451,7 @@
         </div>
     </section>
 
-    <!-- Sobre -->
+<-- Sobre -->
     <section id="sobre">
         <div class="container">
             <div class="section-title">
@@ -505,7 +470,7 @@
         </div>
     </section>
 
-    <!-- Tradições -->
+ <-- Tradições -->
     <section id="tradicoes" class="traditions">
         <div class="container">
             <div class="section-title">
@@ -543,7 +508,7 @@
         </div>
     </section>
 
-    <!-- Gastronomia -->
+ <-- Gastronomia -->
     <section id="gastronomia" class="gastronomy">
         <div class="container">
             <div class="section-title">
@@ -582,7 +547,7 @@
         </div>
     </section>
 
-    <!-- Festivais -->
+<-- Festivais -->
     <section id="festivais" class="festivals">
         <div class="container">
             <div class="section-title">
@@ -617,4 +582,4 @@
         </div>
     </section>
 
-    <!-- Contato -->
+<-- Contato -->
