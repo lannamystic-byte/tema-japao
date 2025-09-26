@@ -479,7 +479,7 @@ nav ul li {
             <div class="traditions-grid">
                 <div class="tradition-card">
                     <div class="tradition-image">
-                        <img src="https://images.unsplash.com/photo-1560829589-bf6d65d80d13?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Cerimônia do chá">
+                        <img src="https://tse3.mm.bing.net/th/id/OIP.BYShDoyIwJ-kk3qV6p8LtQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Cerimônia do chá">
                     </div>
                     <div class="tradition-content">
                         <h3>Cerimônia do Chá</h3>
@@ -488,7 +488,7 @@ nav ul li {
                 </div>
                 <div class="tradition-card">
                     <div class="tradition-image">
-                        <img src="https://images.unsplash.com/photo-1587332278432-1838d8cc8a1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Arranjo floral">
+                        <img src="https://tse2.mm.bing.net/th/id/OIP.8FcytUD4YJO2ZQk20HGGlwHaEo?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Arranjo floral">
                     </div>
                     <div class="tradition-content">
                         <h3>Ikebana</h3>
@@ -524,7 +524,7 @@ nav ul li {
                 </div>
                 <div class="food-item">
                     <div class="food-image">
-                        <img src="https://images.unsplash.com/photo-1563245372-5a5f468a0e6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Ramen">
+                        <img src="https://th.bing.com/th/id/OSK.HEROn8FYbNXQCfnD72lGb3GvqfT05dhAhKynNyZGFYHKh2U?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Ramen">
                     </div>
                     <h3>Ramen</h3>
                     <p>Macarrão em caldo saboroso, geralmente acompanhado de carne, ovos cozidos e vegetais. Cada região do Japão tem sua variação única.</p>
@@ -538,7 +538,7 @@ nav ul li {
                 </div>
                 <div class="food-item">
                     <div class="food-image">
-                        <img src="https://images.unsplash.com/photo-1585032226657-84dac4d1d6ee?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Wagashi">
+                        <img src="https://tse3.mm.bing.net/th/id/OIP.Z5cU2-Soa_WfUY_2NUO9wAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Wagashi">
                     </div>
                     <h3>Wagashi</h3>
                     <p>Doces tradicionais japoneses frequentemente servidos com chá. São verdadeiras obras de arte que refletem as estações do ano.</p>
